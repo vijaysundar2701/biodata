@@ -1,0 +1,418 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width:100%;
+  margin: auto;
+}
+.header {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 150px 0;
+}
+.secondimg
+	{
+		width:14%;
+		position:absolute;
+		top:9%;
+		left:13%;
+		margin:0 auto;
+	}
+.heading
+	{
+		border:none;
+		outline:none;
+		background:none;
+		color:white;
+		position:absolute;
+		top:15%;
+		width:100%;
+		text-align:top;
+		font-size:1.7rem;
+		text-shadow:5px 5px 10px #000000;
+		padding-left:35%;
+		
+	}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.About{
+	padding:10px;
+	font-size:20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+th,td{
+padding: 2px;
+}
+
+#sm{
+border-color:white;
+border-style:solid;
+border-width:thin;
+}
+#wa{
+border-color:white;
+border-style:solid;
+border-width:thin;
+display:inline;
+}
+#fb{
+border-color:white;
+border-style:solid;
+border-width:thin;
+display:inline;
+}
+#insta{
+border-color:white;
+border-style:solid;
+border-width:thin;
+display:inline;
+}
+#tweet{
+border-color:white;
+border-style:solid;
+border-width:thin;
+display:inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px)and (min-width: 300px) {
+
+.header {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 120px 0;
+  
+}
+  .secondimg
+	{
+		width:33.5%;
+		position:absolute;
+		top:6%;
+		left:28%;
+		margin:0 auto;
+        
+	}
+    .heading
+	{
+		border:none;
+		outline:none;
+		background:none;
+		color:white;
+		position:absolute;
+		top:22%;
+		width:100%;
+		text-align:left;
+		font-size:1.4rem;
+		text-shadow:5px 5px 10px #000000;
+		padding-left:22%;
+		
+	}
+}
+@media screen and (max-width: 500px)and (min-width: 400px) {
+
+.header {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 120px 0;
+  
+}
+  .secondimg
+	{
+		width:30%;
+		position:absolute;
+		top:2%;
+		left:24%;
+		margin:0 auto;
+        
+	}
+    .heading
+	{
+		border:none;
+		outline:none;
+		background:none;
+		color:white;
+		position:absolute;
+		top:22%;
+		width:100%;
+		text-align:left;
+		font-size:1.7rem;
+		text-shadow:5px 5px 10px #000000;
+		padding-left:17%;
+		
+	}
+}
+@media screen and (max-width: 600px)and (min-width: 500px) {
+
+.header {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 120px 0;
+  
+}
+  .secondimg
+	{
+		width:25%;
+		position:absolute;
+		top:2%;
+		left:26%;
+		margin:0 auto;
+        
+	}
+    .heading
+	{
+		border:none;
+		outline:none;
+		background:none;
+		color:white;
+		position:absolute;
+		top:23%;
+		width:100%;
+		text-align:left;
+		font-size:1.7rem;
+		text-shadow:5px 5px 10px #000000;
+		padding-left:20%;
+		
+	}
+}
+@media screen and (max-width: 700px)and (min-width: 651px) {
+
+.header {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 120px 0;
+  
+}
+  .secondimg
+	{
+		width:19%;
+		position:absolute;
+		top:2%;
+		left:40%;
+		margin:0 auto;
+        
+	}
+    .heading
+	{
+		border:none;
+		outline:none;
+		background:none;
+		color:white;
+		position:absolute;
+		top:32%;
+		width:100%;
+		text-align:left;
+		font-size:1.7rem;
+		text-shadow:5px 5px 10px #000000;
+		padding-left:35%;
+		
+	}
+}
+@media screen and (max-width: 650px)and (min-width: 600px) {
+
+.header {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 120px 0;
+  
+}
+  .secondimg
+	{
+		width:25%;
+		position:absolute;
+		top:2%;
+		left:27%;
+		margin:0 auto;
+        
+	}
+    .heading
+	{
+		border:none;
+		outline:none;
+		background:none;
+		color:white;
+		position:absolute;
+		top:24%;
+		width:100%;
+		text-align:left;
+		font-size:1.7rem;
+		text-shadow:5px 5px 10px #000000;
+		padding-left:22%;
+		
+	}
+}
+@media screen and (max-width: 750px)and (min-width: 701px) {
+
+.header {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 120px 0;
+  
+}
+  .secondimg
+	{
+		width:22%;
+		position:absolute;
+		top:2%;
+		left:28%;
+		margin:0 auto;
+        
+	}
+    .heading
+	{
+		border:none;
+		outline:none;
+		background:none;
+		color:white;
+		position:absolute;
+		top:25%;
+		width:100%;
+		text-align:left;
+		font-size:1.7rem;
+		text-shadow:5px 5px 10px #000000;
+		padding-left:24%;
+		
+	}
+}
+@media screen and (max-width: 800px)and (min-width: 751px) {
+
+.header {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 120px 0;
+  
+}
+  .secondimg
+	{
+		width:21%;
+		position:absolute;
+		top:2%;
+		left:28%;
+		margin:0 auto;
+        
+	}
+    .heading
+	{
+		border:none;
+		outline:none;
+		background:none;
+		color:white;
+		position:absolute;
+		top:25%;
+		width:100%;
+		text-align:left;
+		font-size:1.7rem;
+		text-shadow:5px 5px 10px #000000;
+		padding-left:24.5%;
+		
+	}
+}
+@media screen and (max-width: 850px)and (min-width: 801px) {
+
+.header {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 120px 0;
+  
+}
+  .secondimg
+	{
+		width:19.5%;
+		position:absolute;
+		top:2%;
+		left:28%;
+		margin:0 auto;
+        
+	}
+    .heading
+	{
+		border:none;
+		outline:none;
+		background:none;
+		color:white;
+		position:absolute;
+		top:23%;
+		width:100%;
+		text-align:left;
+		font-size:1.6rem;
+		text-shadow:5px 5px 10px #000000;
+		padding-left:25.5%;
+		
+	}
+}
